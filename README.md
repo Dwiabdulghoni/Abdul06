@@ -29,7 +29,6 @@ def tambah_data():
     dataMahasiswa[nama] = nim, nilaiTugas, nilaiUts, nilaiUas, nilaiAkhir
     print("\nData Berhasil Ditambahkan!")
     return dataMahasiswa
-
 def ubah_data():
     nama = input("Masukkan Nama: ")
     if nama in dataMahasiswa.keys():
