@@ -10,15 +10,9 @@
 
 # Membuat package dan modul dengan struktur
 # Berikut Tampilan program nya
-
 from view.input_nilai import *
-
-
 dataMahasiswa = {}
-
-
 def tambah_data():
-
     global dataMahasiswa
     nama = input_nama()
     nim = input_nim()
@@ -29,7 +23,6 @@ def tambah_data():
     dataMahasiswa[nama] = nim, nilaiTugas, nilaiUts, nilaiUas, nilaiAkhir
     print("\nData Berhasil Ditambahkan!")
     return dataMahasiswa
-
 def ubah_data():
     nama = input("Masukkan Nama: ")
     if nama in dataMahasiswa.keys():
@@ -42,8 +35,6 @@ def ubah_data():
         print("\nData Berhasil Di Update!")
     else:
         print("Data tidak ditemukan!")
-
-
 def hapus_data():
     nama = input("Masukkan Nama:  ")
     if nama in dataMahasiswa.keys():
