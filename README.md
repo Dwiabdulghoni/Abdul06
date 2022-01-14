@@ -10,6 +10,7 @@
 
 # Membuat package dan modul dengan struktur
 # Berikut Tampilan program nya
+
 from view.input_nilai import *
 dataMahasiswa = {}
 def tambah_data():
