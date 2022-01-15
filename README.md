@@ -10,6 +10,7 @@
 
 # Membuat package dan modul dengan struktur
 # Berikut Tampilan program nya
+
 from model.daftar_nilai import *
 
 
