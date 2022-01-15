@@ -10,7 +10,6 @@
 
 # Membuat package dan modul dengan struktur
 # Berikut Tampilan program nya
-
 from view.input_nilai import *
 
 
@@ -50,3 +49,4 @@ def hapus_data():
         print("Data",nama, "Telah dihapus!")
     else:
         print("Data Mahasiswa Tidak Ada".format(nama))
+
